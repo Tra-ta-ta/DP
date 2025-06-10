@@ -6,7 +6,7 @@ window.Pusher = Pusher;
 
 const echo = new Echo({
     broadcaster: 'pusher',
-    key: 'c7590b2ece25b913f313',
+    key: 'ТУТ ДОЛЖЕН БЫТЬ КЛЮЧ ОТ ПУШЕРА',
     cluster: 'ap3',
     forceTLS: true,
     authorizer: (channel, options) => {
